@@ -1,0 +1,41 @@
+<div>
+    <!--<div id="pnlUserPage">-->
+    <div>
+       <span class="pageTitle">User Information</span>
+       <!--<h2 class="alignCenter" id="whatPage"></h2>-->
+       <br />
+       <form class="userForm">
+           <span>
+           <label for="ind_fname" class="labelUser">First Name</label><br />
+           <input type='text' id="ind_fname" class="inputUser"/>
+           </span><br /><br />
+           <span>
+           <label for="ind_lname" class="labelUser">Last Name</label><br />
+           <input type='text' id="ind_lname" class="inputUser"/>
+           </span>
+           <br /><br />
+           <span>
+           <label for="ind_uname" class="labelUser">User Name</label><br />
+           <input type='text' id="ind_uname" class="inputUser"/>
+           </span><br /><br />
+           <span>
+           <label for="ind_email" class="labelUser">Email</label><br />
+           <input type='text' id="ind_email" class="inputUser"/>
+           </span>
+           <br /><br />
+           <p>
+           <label for="ind_ulevel" class="labelSelect">User Level</label>
+           <select name="ind_ulevel" id="ind_ulevel" class="selectUser">
+                    <option value="">=======Select=======</option>
+<!--                    <option value="0">Guest</option>               -->
+                    <option value="1">Student</option>
+                    <option value="2">Teacher/Instructor</option>
+                    <option value="9">Administrator</option>
+           </select>
+           </p>
+           <br /><br /><br /><br />
+           <button type="button" id="btnBackUser" class="userButton" onclick="" >Back to List of Users</button>
+           <button type="button" id="btnSaveUser"  class="userButton" onclick="" >Save</button><br /><br />
+       </form>     
+    </div>
+</div>

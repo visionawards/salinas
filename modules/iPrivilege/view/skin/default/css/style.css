@@ -1,0 +1,172 @@
+#pnlPrivilege {
+    width:  100%;
+    height:  100%;
+    z-index: 10;
+	color:#344F61;
+    
+}
+
+#pnlUserPage {
+    position: absolute;
+    top: 50px !important;
+    margin: auto;
+    width:  600px;
+    height:  400px;
+    background-color: white;
+    z-index: 10;
+	padding: 20px;
+	box-shadow: 0 0 3px #333;
+    
+}
+
+#PrivilegeHeader {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+#azListDiv {
+    margin: 20px;
+    text-align: center;
+}
+
+#pnlUsers {
+    visibility:  hidden;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+.display-none {
+    display: inline;
+    list-style-type: none;
+    
+}
+
+.btnLetter {
+    font-family: Arial, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+	background:none;
+	cursor:pointer;
+	color:#344F61;
+}
+
+.btnLetter:hover {
+    /*border:  #3399ff solid medium;*/
+    text-decoration: underline;
+       
+}
+
+#tableUsers {
+    /*width: 65%;*/
+    border: #000 solid thin;
+    /*margin: auto;*/
+    margin-left: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+	color:#344F61;
+}
+
+.tblUsers {
+    width: 60%;
+
+    table-layout: fixed;
+    margin: auto;
+}
+
+.tdUsers button {
+	background:none;
+	cursor:pointer;
+	margin-right:5px;
+}
+
+
+.alignCenter {
+    text-align: center;
+    
+}
+
+th {
+
+    text-align: center;
+    vertical-align: middle;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.trUsers {
+    text-align: center;
+}
+
+.tdUsers {
+    border: #000 solid thin;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.userButton {
+    margin-top: 5px;
+    margin-left: 130px;
+	background: #40529A;
+	color:#fff;
+    width:  200px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    text-align: center;
+	cursor:pointer;
+	border:none;
+}
+
+.userButton:hover {
+	box-shadow: 0 0 4px #555;
+}
+
+.userButton:active {
+	box-shadow: 0 0 2px #555;	
+}
+
+.labelUser {
+
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.labelSelect {
+    float: left;
+    margin-left: 25px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.selectUser {
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.inputUser {
+    width: 350px;
+}
+
+.userForm {
+    margin-top: 30px;
+    margin-left: 50px;
+    
+    
+}

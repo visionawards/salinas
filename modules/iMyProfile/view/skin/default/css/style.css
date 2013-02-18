@@ -1,0 +1,76 @@
+#pnlMyProfile {
+    width:  1200px;
+    height:  100%;
+    z-index: 10;
+	padding-top:10px;
+	padding-left:20px;
+}
+
+.alignCenter {
+    text-align: center;
+}
+
+.inputUser {
+    width: 350px;
+}
+
+
+.labelUser {
+    margin-left: 25px;
+	margin-right: 2px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+	color:#344F61;
+}
+
+.userButton {
+    background: #40529A;
+	color:#fff;
+    width:  200px;
+	margin-right:150px;
+    margin-top: 30px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+	cursor:pointer;
+}
+
+.userButton:hover {
+	box-shadow: 0 0 4px #555;
+}
+
+.userButton:active {
+	box-shadow: 0 0 2px #555;	
+}
+
+#prof_uname {
+    margin-left: 25px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+	color:#344F61;
+    
+}
+
+#uname_block {
+	width:350px !important;
+	margin:auto;
+	padding-left:50px;
+	text-align:center;
+}
+
+.profileForm {
+	text-align:right;
+	width:550px;
+	box-shadow: 0 0 3px #777;
+	margin:auto;
+	padding-top:30px;
+	padding-right:50px;
+	background-color: #fff;
+	background-image: url(../images/staple.png);
+	background-repeat: no-repeat;
+	background-position: center top;	
+}

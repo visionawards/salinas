@@ -1,0 +1,139 @@
+<script type="text/javascript" src="{:=iD_ROOT_R.JS_PATH:}/jQuery/jquery-1.7.2.js"></script>
+<script type="text/javascript" src="{:=iD_ROOT_R.JS_PATH:}/jQuery/ui/minified/jquery-ui-1.8.16.custom.min.js"></script>
+<script type="text/javascript">var iDRootR='{:=iD_ROOT_R:}';</script>
+<script type="text/javascript" src="{:=iD_ROOT_R.JS_PATH:}/iDJS/iDuckling.js"></script>
+<script type="text/javascript" src="{:=JS_PATH:}/iDJSLocal.js"></script>
+<script type="text/javascript" src="{:=iD_ROOT_R.JS_PATH:}/tiny_mce/tiny_mce.js"></script>
+<script type="text/javascript" src="{:=iD_ROOT_R.JS_PATH:}/jspdf/jspdf.min.js"></script>
+<script>
+var aC1yc2EAAAABJQAAAIEAoYs7HRm67L6yWhrloE9QSgFrzONifnM7YGLJoq38="aC1yc2EAAAABJQAAAIEAoYs7HRm67L6yWhrloE9QSgFrzONifnM7YGLJoq38aC1yc2EAAAABJQAAAIEAoYs7HRm67L6yWhrloE9QSgFrzONifnM7YGLJoq38aC1yc2EAAAABJQAAAIEAoYs7HRm67L6yWhrloE9QSgFrzONifnM7YGLJoq38";
+var BASE_URL = '{:=BASE_URL:}';
+var LAYOUT_ROOT = '{:=LAYOUT_ROOT:}';
+var LAYOUT_PATH = '{:=LAYOUT_PATH_JS:}';
+var DATA_PATH = '{:=DATA_PATH_JS:}';
+var DATA_PATH_R = '{:=DATA_PATH_R_JS:}';
+var UDATA_PATH = '{:=USER_DATA_PATH:}';
+var TEMP_PATH = '{:=TEMP_PATH_JS:}';
+var PROF_PATH = '{:=PROF_PATH:}';
+var JS_PATH = '{:=JS_PATH:}';
+var IMAGE = '{:=IMAGE_JS:}';
+var UID = '{:=#uid:}';
+var ULevel = '{:=#ulevel:}';
+
+var RES_ORIGIN_PATH = DATA_PATH + '/original/';
+var RES_PREVIEW_PATH = DATA_PATH + '/image/preview/';
+var RES_THUMB_PATH = DATA_PATH + '/image/thumb/';
+var RES_PDF_PATH = DATA_PATH + '/pdf/';
+
+var MODU = '{:=MODU:}';
+var CUR_MURL = '{:=CUR_MURL:}';
+var CUR_MEURL = '{:=CUR_MEURL:}';
+
+/*-------------------------------------*/
+var H_URL = MODU + 'Home:';
+/*-------------------------------------*/
+var L_URL = MODU + 'iLogin:';
+var LL_URL = L_URL + 'iLogin:';
+var LS_URL = L_URL + 'SignUp:';
+/*-------------------------------------*/
+var C_URL = MODU + 'iClasses:';
+/*-------------------------------------*/
+var S_URL = MODU + 'iSearchPage:';
+/*-------------------------------------*/
+var G_URL = MODU + 'iPrivilege:';
+/*-------------------------------------*/
+var M_URL = MODU + 'iMyProfile:';
+/*-------------------------------------*/
+var T_URL = MODU + 'iCategory:';
+/*-------------------------------------*/
+var R_URL = MODU + 'iResource:';
+/*-------------------------------------*/
+var Y_URL = MODU + 'iMyClass:';
+/*-------------------------------------*/
+var iWORKER = JS_PATH + '/iWorker/';
+/*-------------------------------------*/
+//var CUR_PDE_PATH = '{:=CURMODULE_PDE_PATH:}' + '\\';
+/*-------------------------------------*/
+
+
+
+$(function() {
+         
+    var CURMODULE = '{:=CURMODULE:}';
+    var CUREVENT = '{:=CUREVENT:}';
+    var CURACTION = '{:=CURACTION:}';
+
+//     myL = new iLogin();
+
+//    $().iDLoadJS(JS_PATH + "/iHome/iHome.js", function(){
+//        myH = new iHome();
+//        myH.initHome();
+
+    //if (CURMODULE == "Home") {
+         $().iDLoadJS(JS_PATH + "/iHome/iHome.js", function() {
+            myH = new iHome();
+            myH.initHome();
+
+            $().iDLoadJS(JS_PATH + "/iLogin/iLogin.js", function() {
+                myL = new iLogin();
+                
+                if(CURMODULE == 'iLogin' && CURACTION == 'v') {
+                     myL.viewLoginForm();
+                }                
+            })
+
+            $().iDLoadJS(JS_PATH + "/iClasses/iClasses.js", function() {
+                myC = new iClasses();
+            })
+            
+            $().iDLoadJS(JS_PATH + "/iSearchPage/iSearchPage.js", function() {
+                myP = new iSearchPage();
+                
+                if(CURMODULE == 'iSearchPage' && CURACTION == 'v') {
+                    myP.v();
+                }                
+            })
+
+            $().iDLoadJS(JS_PATH + "/iMyClass/iMyClass.js", function() {
+                myY = new iMyClass();
+            })
+
+            $().iDLoadJS(JS_PATH + "/iPrivilege/iPrivilege.js", function() {
+                myG = new iPrivilege();
+            })
+            
+            $().iDLoadJS(JS_PATH + "/iMyProfile/iMyProfile.js", function() {
+                myM = new iMyProfile();
+            })
+            
+            $().iDLoadJS(JS_PATH + "/iCategory/iCategory.js", function() {
+                myT = new iCategory();
+            })
+
+            $().iDLoadJS(JS_PATH + "/iResource/iResource.js", function(){        
+                myR = new iResource();
+
+                if(CURMODULE == 'iResource' && CURACTION == 'v') {
+                    $('#top_logo').css('width','300px').html('Roser - Resource Page');
+                    myR.viewResourceList();
+                }
+
+                $().iDLoadJS(JS_PATH + "/iResource/iResourceTags.js", function(){        
+                    myRT = new iResourceTags();
+                });             
+
+            });
+
+          })
+
+    //};
+
+});
+
+// }   
+</script>
+<div id="dummy"></div>
+<div></div>
+<span id="spanDummy"></span>
+<pre id="preDummy"></pre>
+

@@ -1,0 +1,59 @@
+
+#pnlSearchResult {
+    width:  100%;
+    height:  100%;
+    background-color: lavender;
+    
+}
+
+.searchResultHeader > li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 10px;
+}
+
+.searchResultList  {
+    list-style-type: none;
+    padding-right: 10px;
+}
+
+.itemTable {
+    border: 1px;
+    
+}
+
+.thumbItem {
+    height: 20%;
+    width: 20%;
+}
+
+.itemTitle {
+    font-weight: normal;font-family: Verdana, Geneva, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.gradeLevel {
+    font-weight: normal;font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.centralFeature {
+    font-weight: normal;font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.addlFeature {
+    font-weight: normal;font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.thumbItem {
+    border: 1px solid darkgray;
+    margin: 5px;
+    padding: 10px;
+    
+}

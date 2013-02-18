@@ -1,0 +1,167 @@
+<article id="articleResourceList">
+    <!--<span class="pageTitle">Resource List</span><br />-->
+    <button class="btnAddResource" id="btnAddResource">Add a New Resource</button><br /><br />
+    <!--<ul>
+        <li class="col-12">-->
+            <table id="tblResourceList">
+                <thead>
+                    <th></th>
+                    <th>Title</th>
+                    <th>Grade</th>
+                    <th>Tags</th>
+                    <th>Actions</th>
+                </thead>
+                <tbody id="resListTB">
+                    <tr>
+                        <td>doc thumbnail</td>
+                        <td>
+                            This is a test doc image 1.
+                        </td>
+                        <td>View | Edit | Delete</td>
+                    </tr>
+                    <tr>
+                        <td>doc thumbnail</td>
+                        <td>
+                            This is a test doc image 2.
+                        </td>
+                        <td>View | Edit | Delete</td>
+                    </tr>
+                    <tr>
+                        <td>doc thumbnail</td>
+                        <td>
+                            This is a test doc image 3.
+                        </td>
+                        <td>View | Edit | Delete</td>
+                    </tr>
+                    <tr>
+                        <td>doc thumbnail</td>
+                        <td>
+                            This is a test doc image 4.
+                        </td>
+                        <td>View | Edit | Delete</td>
+                    </tr>                    
+                </tbody>
+            </table>  
+    <!--    </li>
+    </ul>-->
+</article>
+<article id="articleAddResource">
+    <span class="pageTitle">Add Resource</span><br />
+    <span>
+        <a id="hrefResourceList">Resource List</a> > Add Resource
+    </span> <br /> <br />
+    <p>
+        Please choose the type of resource to proceed.
+    </p>
+    <br />
+    <!--<ul>
+        <li class="col-12">-->
+    <div id="addResourceElements">        
+            <p id="pResourceType">
+                <label for="resourceType">Type: </label><br />
+                <select name="selResourceType" id="selResourceType">
+                    <option value="0">==== SELECT ====</option>
+                    <option value="1">Image</option>
+                    <option value="2">Doc/PDF</option>
+                    <option value="3">Link</option>
+                </select>
+            </p>
+            <br /><br /><br />
+            <form id="frmResourceFile">
+                <p id="pResourceFile">
+                    <label for="resourceFile">File: </label><br />
+                    <input type="file" name="resourceFile" id="resourceFile" 
+                           onclick="myR.preResImage(event);" onchange="myR.initResImagePre(event);" />
+                    <img id="resImageThumbPreview" />
+                </p>
+            </form>
+            <br />
+            <p id="pResourceLink">
+                <label for="resourceLink">Link URL: </label><br />
+                <input type="text" name="resoureLink" id="resourceLink" />
+            </p>
+            <br />
+            <p id="pResourceTitle">
+                <label for="resourceTitle">Title: </label><br />
+                <input type="text" name="resourceTitle" id="resourceTitle" />            
+            </p>
+            <br />
+            <div id="pResourceAuthor">
+                <div id="authorBox">
+                	<label for="resourceAuthor">Author: </label><br />
+                	<input type="text" name="resourceAuthor" id="resourceAuthor" />   
+                </div>
+         		<div >
+                	<label for="resourcAge">Age: </label><br />
+         			<input name="resourceAge" type="text" id="resourceAge" size="2" maxlength="2" /> 
+                </div>           
+        	</div>
+            <br />
+            <p id="pResourceDescription">
+                <label for="resourceDescription">Transcript: </label>
+                <br />
+                <textarea name="txtaResourceDescription" id="txtaResourceDescription"></textarea>
+            </p>
+            <Br />
+            <p id="pResourceAttachement">
+                <label for="resourceAttachement">Attachment: </label><br />
+                <input type="file" name="resourceAttachement" id="resourceAttachement" />
+            </p>
+            <br />
+<!--            <p id="pResourceGradeLevel">
+                <label for="selGradeLevel">Grade Level: </label>
+                <select name="selGradeLevel" id="selGradeLevel">
+                    <option value="0">===== SELECT =====</option>
+                    <option value="1">PK-1</option>
+                    <option value="2">2-3</option>
+                    <option value="3">4-5</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option> 
+                </select>
+                
+            </p>
+           
+            <p id="pResourceTags">
+                <label>Tags: </label>
+                <div id="resTagContainer">
+                    <span id="spanResTagContainer">
+                        <span class="resAutoTag">Tag1 <span>x</span></span>
+                        <span class="resAutoTag">Tag2 <span>x</span></span>
+                        <span class="resAutoTag">Tag3 <span>x</span></span>
+                    </span>
+                    <input type="text" id="txtNewTag" maxlength="50" placeholder="Click to add tags" />
+                    <button id="btnViewAllTags">View All Tags</button>
+                </div>
+            </p>
+-->        
+
+                <p id="pResourceGradeLevel">
+                <label for="selGradeLevel">Grade Level: </label><br />
+                <select name="selGradeLevel" id="selGradeLevel">
+                    <option value="0">===== SELECT =====</option>
+                    <option value="1">PK-1</option>
+                    <option value="2">2-3</option>
+                    <option value="3">4-5</option>
+                </select>
+                </p>
+                
+                <br /><br />
+                <button id="btnSubmitResource">Submit</button>
+                <br /><br />
+                
+                <p id="pSelectedTags"></p>
+                
+                <p id="pResourceTags"></p>
+
+                <br />            
+       </div>     
+    <!--    </li>
+    </ul>-->
+</article>

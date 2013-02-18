@@ -1,0 +1,182 @@
+#pnlAddTags {
+    width:  100%;
+    /*height:  100%;*/
+    z-index: 10;
+	width:1200px;	
+}
+
+#addTagsHeader {
+    text-align: left;
+	padding-top:10px;
+	padding-left:20px;
+}
+
+#addTagsFormDiv {
+	width: 80%;
+	margin-left: 100px;
+	padding: 20px;
+	overflow:  auto;
+}
+
+#dropmenu {
+    display: block;
+}
+
+#selectMainId {
+    display: block;
+    text-align: center;
+    width: 400px;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+#labelSubId {
+    width: 500px;
+    margin-left: 100px;
+    font-family:Arial, sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+#subTagId {
+    width: 750px;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    color: blue;
+}
+
+#tagListDiv {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+	box-shadow: 0 0 3px #777;
+	background-color: #fff;
+	background-image: url(../images/staple.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	padding:10px;
+	padding-left:30px;
+	width:900px;	
+}
+
+.addCatButton {
+    width:  150px;
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+	background:#41549b;
+	cursor:pointer;
+	color:white;
+}
+
+.addButton {
+    width:  65px;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+	background:#41549b;
+	cursor:pointer;
+	color:white;
+}
+#addTagsFormDiv button:hover {
+	box-shadow:0 0 2px #333;
+}
+.editButton {
+    width:  65px;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+	background:#377400;
+	border-radius: 5px;
+	cursor:pointer;
+	color:white;
+}
+
+.deleteButton {
+    width:  65px;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+	background:none;
+	cursor:pointer;
+}
+
+.saveButton {
+    visibility: hidden;
+    width:  65px;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+	background:none;
+	cursor:pointer;
+}
+
+.addMainTag {
+    width: 780px;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    
+}
+
+
+.addSubTag {
+    width: 750px;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    
+}
+
+
+.editMainTag {
+    width: 790px;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+	margin-top:30px;
+    
+}
+
+
+.editSubTag {
+    width: 750px;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    
+}
+
+li {
+    list-style-type: none;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}

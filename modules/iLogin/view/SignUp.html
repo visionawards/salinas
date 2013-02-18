@@ -1,0 +1,29 @@
+<!--   <div id="signUpDiv">    -->
+<div>    
+   
+<!--        <form id="signUpForm" method="post" action="{:=CUR_MEURL:}doSignUp">   -->
+    <form class="signUpForm"> 
+      <fieldset>
+          <legend>Sign-up</legend><br />
+        <label for="fname" class="signUpLabel">First Name: </label>
+        <input type="text" id="fname" name="firstname" class="signUpInput" /><br />
+        <label for="lname" class="signUpLabel">Last Name:  </label>
+        <input type="text" id="lname" name="lastname" class="signUpInput" /><br />
+        <label for="uname" class="signUpLabel">Username:   </label>
+        <input type="text" id="uname" name="username" class="signUpInput" /><br />
+        <label for="email" class="signUpLabel">Email:      </label>
+        <input type="text" id="email" name="email" class="signUpInput" /><br />
+        <label for="password" class="signUpLabel">Password:   </label>
+        <input type="password" id="password" name="password" class="signUpInput" /><br />
+        <label for="confirm" class="signUpLabel">Confirm Password:   </label>
+        <input type="password" id="confirm" name="confirm" class="signUpInput" /><br /><br />
+
+        <input type="hidden" name="insertAll" value="1" />
+<!--        <input type="button" value="Create Account" onclick="myL.signUp()" />    -->
+        <button type="button" id="btnSignUp" class="signUpButton">Create Account</button>
+<!--    <button type="button" class="signUpButton" onclick="myL.doSignUp()" >Create Account</button>    
+        <input type="submit" class="center_text" value="Create Account" />   -->
+      </fieldset>
+    </form>
+</div>
+

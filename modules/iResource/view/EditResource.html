@@ -1,0 +1,61 @@
+<article id="articleEditResource">
+   
+    <div id="editResourceElements">        
+			 <button id="btnCloseEditResource">x</button>
+            <span class="pageTitle"> Edit Resource </span> <br /><br />
+            <p id="pEditResourceImage">
+                <label for="resourceImageFile">Image </label><br />
+                <img id="resImageThumbEditPreview" />
+            </p>
+            <br />
+            <p id="pEditResourceTitle">
+                <label for="resourceTitle">Title: </label><br />
+                <input type="text" name="resourceEditTitle" id="resourceEditTitle" />            
+            </p>
+            <br />
+            <div id="pEditResourceAuthor">
+                <div id="editAuthorBox">
+                	<label for="resourceAuthor">Author: </label><br />
+                	<input type="text" name="resourceAuthor" id="resourceAuthor" />   
+                </div>
+         		<div >
+                	<label for="resourceAge">Age: </label><br />
+         			<input name="resourceAge" type="text" id="resourceAge" size="2" maxlength="2" /> 
+                </div>           
+        	</div>
+            <br />
+            <p id="pResourceEditDescription">
+                <label for="resourceEditDescription">Description: </label>
+                <br />
+                <textarea name="txtaResourceEditDescription" id="txtaResourceEditDescription"></textarea>
+            </p>
+            <Br />
+            <p id="pResourceEditAttachement">
+                <label for="resourceAttachement">Attachment: </label><br />
+                <input type="file" name="resourceEditAttachement" id="resourceEditAttachement" />
+            </p>
+            <br />
+       
+
+                <p id="pResourceEditGradeLevel">
+                <label for="selEditGradeLevel">Grade Level: </label><br />
+                <select name="selEditGradeLevel" id="selEditGradeLevel">
+                    <option value="0">===== SELECT =====</option>
+                    <option value="1">PK-1</option>
+                    <option value="2">2-3</option>
+                    <option value="3">4-5</option>
+                </select>
+                </p>
+                <br />
+                <br /><br />
+                <p id="pEditResourceTags"></p>
+
+                <br />
+                
+                
+                <button id="btnUpdateResource">Update</button>
+                <br /><br />                
+       </div>     
+    <!--    </li>
+    </ul>-->
+</article>

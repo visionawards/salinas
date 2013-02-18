@@ -1,0 +1,46 @@
+<body {:=ONLOAD:} >
+
+<div id="container">
+
+    <div id="top_nav">
+
+        <ul class="top_nav_left">
+            <li><a href="?">Home</a></li>
+
+        </ul>
+
+        <ul class="top_nav_right">
+            <li><a id="btnAbout">About</a></li>
+            {:if(#username){:}  
+                <li><a id="btnSearchPage">Search</a></li>
+                <li><a id="btnContact">Contact</a></li>
+                <li><a id="btnHelp">Help</a></li>
+                {:if(#teacher){:}
+                <li><a id="btnClasses">Classes</a></li>
+                {:}:} 
+                {:if(#admin){:}
+                    <li><a id="btnCategory">Category</a></li>
+                    <li><a id="btnUpload">Contribute</a></li>
+                    <li><a id="btnPrivilege">Privileges</a></li>
+                {:}:} 
+                {:if(#student){:}
+                <li><a id="btnMyClass">My Class</a></li>
+                {:}:} 
+                <li><a id="btnMyProfile">My Profile</a></li>
+                <li class=""><a id="btnSignOut">Sign-out [{:=#fullname:}]</a></li>   
+            {:}else{:}   
+            <li><a id="btnSignIn">Sign In</a></li>
+            <li><a id="btnRegister">Register</a></li>
+            {:}:}    
+            
+        </ul>
+
+    </div>
+
+
+
+
+
+
+
+

@@ -1,0 +1,147 @@
+#pnlSignUpPage {
+    margin: 35px auto;
+    padding: 10px;
+    width: 500px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #344f61;
+	text-align:right;
+  
+}
+.signUpForm fieldset {
+	border:none;
+}
+
+#pnlLoginPage {
+	margin: 35px auto;
+	padding: 10px;
+	width: 500px;
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	color: #344f61;
+	/*background-color: white;
+	border: 9px solid #377400;
+	border-radius:5px;
+	box-shadow: 0 0 3px #444 inset; */      
+}
+
+
+#pnlFrgtPass {
+    margin: 0 auto;
+    width: 500px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #344f61;
+}
+
+
+.signUpForm {
+    margin: 0 auto;
+    width: 500px;
+    color: #344f61;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+.signUpLabel {
+    width:  150px;
+    height: 20px;
+    padding: 3px;
+    text-align: right;
+    margin-right: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.signUpInput {
+    width: 300px;
+    text-align: left;
+    margin-left: 5px;
+	margin-bottom:10px;
+	margin-top:10px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.signUpButton {
+    background:none;
+	width:100px;
+    padding: 10px;
+    margin-left: 150px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+	cursor:pointer;
+	color:
+}
+
+#btnSignUp{
+	margin-right:100px;
+}
+
+.passText {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}   
+
+.underlineText {
+    text-decoration: underline;
+}
+
+.boldText {
+    font-weight: bold;
+}
+
+button:hover {
+    color:#377400;
+       
+}
+
+input:hover {
+    background-color: lavender;
+      
+}
+
+
+.loginTable {
+    margin:auto;
+}
+
+.midTD {
+    width:100px;
+}
+
+.mailingTD {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+}
+.fbSignUpPanel {
+    width:400px;
+    height:400px;
+    background:#cc9900;
+}
+.btnFBSignUpPanelX {
+    float:right;
+    text-align: center;
+    font:bold 12px Arial;
+    width:18px;
+    height:16px;    
+    padding:2px;
+    background:#b4b4b4;
+    color:#696969;
+    cursor:pointer;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;     
+}
+
+.ui-listview {
+    list-style-type: none;
+}

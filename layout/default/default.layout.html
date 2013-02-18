@@ -1,0 +1,29 @@
+<?php
+if($page['header']) {
+    include ('header.html');
+}
+if($page['neck']) {
+    include ('neck.html');
+}
+if($page['bodytop']) {
+    include ('bodytop.html');
+}
+if($page['bodyleft']) {
+    include ('bodyleft.html');
+}
+if($page['body'] && $page['view']) {
+    include ($page['path'] . 'view' . DS . $page['view'] . '.html');
+}
+if($page['bodybottom']) {
+    include ('bodybottom.html');
+}
+if($page['footer']) {
+    include ('footer.html');
+} 
+if($page['sole']) {
+    include ('sole.html');
+}
+if($page['tail']) {
+    include ('tail.html');
+}
+?>

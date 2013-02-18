@@ -1,0 +1,297 @@
+#articleResourceList {
+    width:1200px;
+    /*height:600px;*/
+    padding:15px;
+   
+}
+#articleAddResource {
+    display:none;
+    width:1100px;
+    padding:15px;
+}
+
+#addResourceElements {
+	/*margin-left:50px;*/
+	font-size:18px;
+	color:#344F61;
+}
+#tblResourceList {
+	/*width:90%;*/
+	width:900px;
+	margin:auto;
+	padding:20px;
+	box-shadow: 0 0 4px #777;
+	background-color: white;
+	background-image: url(../images/staple.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+#tblResourceList th {
+	border:none;
+	text-align: center;
+}
+
+#tblResourceList td {
+	text-align: center;
+	border: 1px solid #ccc;
+	margin:1px;
+	padding:2px;
+
+}
+#pResourceLink {
+    display:none;
+}
+#pnlInitResourceImage {
+    position:absolute;
+    width:800px;
+    height:600px;
+    padding:10px;
+    background-color:#fff;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px; 
+	box-shadow: 0 0 4px #555;   
+}
+
+#resImagePreview {
+    width:80px;
+    height:80px;
+    border:1px solid #656565;
+    margin:0 50px 10px 0;
+    float:left;
+}
+#resImageCropResize {
+    padding-top:50px;
+}
+#resImageBox {
+    width:750px;
+    height:450px;
+    border:1px solid #656565;
+    margin:0 0 10px 0;
+}
+#resImageThumbPreview {
+    display:none;
+    width: '80px';
+    border:'1px solid #dddddd';
+    margin:'0 10px 0 0';
+    vertical-align: middle;
+}
+
+#btnAddResource {
+	background: none repeat scroll 0 0 #40529A;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Arial,sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+	margin-left:500px;
+}
+#btnAddResource:hover {	
+	box-shadow: 0 0 2px #444;
+}
+
+#btnSubmitResource {
+	background: none repeat scroll 0 0 #40529A;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Arial,sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+	margin-top:20px;
+	margin-left:150px;
+}
+#btnSubmitResource:hover {	
+	box-shadow: 0 0 2px #444;
+}
+
+.ulTags {
+	font-size:14px;
+	text-align:left;
+	margin-left:10px;
+}
+
+.ulSubtags {
+	font-size:12px;
+}
+/*------- Add Resource -----------*/
+#addResourceBlock {
+	width:600px;
+	margin:auto;
+	box-shadow: 0 0 4px #777;
+	padding:20px;
+	background-color: white;
+	background-image: url(../images/pins.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.aRInstruc {
+	text-align:center;
+}
+
+#resourceTitle {
+	width:500px;
+}
+.mceLayout {
+	width:500px !important;
+}
+#selResourceType {
+	position:absolute;
+	margin-left: 0;
+}
+#selGradeLevel {
+	margin-left: 0;
+}
+
+/*------- Resource Tag -----------*/
+.resTagContainer {
+    margin: -1px 0;
+    margin-top: -3px;
+}
+span.resAutoTag {
+    background-color: #EBF5E2 !important;
+    border: 1px solid #CCD6C5;
+    padding: 2px 5px 2px 5px;
+    color: #555;
+    display: inline-block;
+    line-height: 18px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 400px;
+    position: relative;
+    text-align: center;
+}
+.resAutoTag > span {    
+    float:right;
+    cursor: pointer;
+    width:20px;
+    height:20px;
+    margin-left:10px;
+    background-color:rgba(200,200,200,1);
+    -webkit-border-radius: 30px;
+    -khtml-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;    
+}
+.resTagContainer input {
+    width: 150px ;
+    border: 1px solid white ;
+    line-height: 24px ;
+    font-family: Helvetica, Arial, sans-serif;
+    color: dimGray;
+    vertical-align: top;
+}
+#pnlAllTags {
+    position:absolute;
+    width:500px;
+    height:500px;
+    padding:10px;
+    background-color:rgba(200,200,200,1);
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;     
+}
+
+.searchPageFset {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    display: block;
+	border:none;
+}
+
+
+/*-------- Resource Image Editor --------*/
+#resImageBox .ui-resizable-sw {
+    background:url(../images/handle.png) no-repeat;
+    width:20px;
+    height:20px;
+}
+#resImageBox .ui-resizable-se {
+    background:url(../images/handle.png) no-repeat;
+    
+}
+#resImageBox .ui-resizable-nw {
+    background:url(../images/handle.png) no-repeat;
+    width:20px;
+    height:20px;    
+}
+#resImageBox .ui-resizable-ne {
+    background:url(../images/handle.png) no-repeat;
+    width:20px;
+    height:20px;    
+}
+
+
+/*-------- Resource Editor --------*/
+#pnlEditResource {
+	top:20px !important;
+	position:absolute;
+}
+	
+#editResourceElements {
+	width:700px;
+	padding:20px;
+	box-shadow: 0 0 4px #777;
+	margin:auto;
+	color: #40529A;
+	font-size:16px;
+	font-family: Arial,sans-serif;
+	background-color: #fff;
+	background-image: url(../images/staple.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+#btnCloseEditResource {
+	background: none repeat scroll 0 0 #444444;
+    border-radius: 20px 20px 20px 20px;
+    color: white;
+    cursor: pointer;
+    float: right;
+    font-family: Arial,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    height: 20px;
+    line-height: 10px;
+    margin: 5px;
+    text-align: center;
+    width: 20px;
+}
+
+#btnCloseEditResource:hover {	
+	box-shadow: 0 0 2px #444;
+}
+
+#btnUpdateResource {
+	background: none repeat scroll 0 0 #40529A;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Arial,sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+	margin-left:250px;
+}
+
+#btnUpdateResource:hover {	
+	box-shadow: 0 0 2px #444;
+}
+
+#pEditResourceImage {
+	/*margin-left:300px;
+	text-align:center;*/
+}
+
+/*--------------------------------------*/

@@ -1,0 +1,43 @@
+<div id="divSearchPage">
+	<br />
+   <div class="pageTitle" style="display:none;">Search</div>
+   <div id="searchPageForm">
+  <!--     <form class="searchPageForm" >  -->
+       
+       <form>    
+           
+           <fieldset class="searchPageFset">
+                <input type="checkbox" id="allGrades" name="allGrades" value="All Grades" onclick="myP.gradeAllEvents();" />
+                <label for="allGrades" class="searchPageCheckAll">All Grades</label><br />
+           
+                <fieldset id="gradeFieldset" class="searchPageFset"><legend></legend>
+                
+                    <input type="checkbox" id="grade_1" name="grade" value="1" onclick="myP.gradeFormEvents(event,1);" />
+                    <label for="grade_1" class="searchPageLabel">PreK - 1</label><br />
+                    <input type="checkbox" id="grade_2" name="grade" value="2" onclick="myP.gradeFormEvents(event,2);" />
+                    <label for="grade_2" class="searchPageLabel">Grade 2 - 3</label><br />
+                    <input type="checkbox" id="grade_3" name="grade" value="3" onclick="myP.gradeFormEvents(event,3);" />
+                    <label for="grade_3" class="searchPageLabel">Grade 4 - 5</label><br />
+<!--                    <input type="checkbox" id="grade_4" name="grade" value="4" onclick="myP.gradeFormEvents(event,4);" />
+                    <label for="grade_4" class="searchPageLabel">Kinder - 5</label><br />   -->
+
+                </fieldset>
+            </fieldset>
+
+           <fieldset id="centralFieldset" class="searchPageFset"><legend>Central Features</legend>
+
+           </fieldset>
+           
+            <p class="searchPageBtnP">
+                <button type="reset" id="btnReset" class="searchPageButton" onclick="myP.resetForm();">Clear Selections</button><br /><br />
+                <!--<button id="btnHome" class="searchPageButton" onclick="myP.returnHome();">Home</button>-->
+            </p>
+
+        </form>        
+    </div>   <!-- end of form container -->
+
+    <div id="searchPageFrame" class="searchPageFrame" >
+        
+    </div> 
+
+    </div>
